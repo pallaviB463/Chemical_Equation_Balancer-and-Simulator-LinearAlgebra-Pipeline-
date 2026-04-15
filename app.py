@@ -11,7 +11,7 @@ st.set_page_config(page_title="Chemical Equation Balancer", layout="wide")
 st.title("🧪 Advanced Chemical Equation Balancer & Simulator")
 
 # ════════════════════════════════════════════════════════
-# TIER 1 — FEATURE 1: RECURSIVE FORMULA PARSER
+# FEATURE 1: RECURSIVE FORMULA PARSER
 # Handles parentheses: Ca(OH)2, Al2(SO4)3, Fe2(SO4)3
 # ════════════════════════════════════════════════════════
 
