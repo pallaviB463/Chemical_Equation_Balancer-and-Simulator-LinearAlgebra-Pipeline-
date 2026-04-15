@@ -13,8 +13,6 @@ st.title("🧪 Advanced Chemical Equation Balancer & Simulator")
 # ════════════════════════════════════════════════════════
 # TIER 1 — FEATURE 1: RECURSIVE FORMULA PARSER
 # Handles parentheses: Ca(OH)2, Al2(SO4)3, Fe2(SO4)3
-# Old code used flat regex — broke on any bracket group.
-# New code: recursive descent parser that mirrors bracket nesting.
 # ════════════════════════════════════════════════════════
 
 def parse_compound(formula):
@@ -58,8 +56,6 @@ def parse_compound(formula):
 
 # ════════════════════════════════════════════════════════
 # FEATURE 2: MINIMAL INTEGER COEFFICIENTS (GCD REDUCTION)
-# Old solve(): only LCM scaled — could return [4,14,8,12]
-# New solve(): LCM scale then GCD reduce → always minimal
 # e.g. [4,14,8,12] / GCD(4,14,8,12)=2 → [2,7,4,6]
 # ════════════════════════════════════════════════════════
 
@@ -83,8 +79,6 @@ def solve(matrix):
 
 # ════════════════════════════════════════════════════════
 # FEATURE 3: MULTI-SOLUTION HANDLER (NULLITY > 1)
-# Old code: crashed or silently gave wrong answer when nullity > 1.
-# New code: returns ALL basis vectors, each independently reduced.
 # ════════════════════════════════════════════════════════
 
 def solve_all(matrix):
