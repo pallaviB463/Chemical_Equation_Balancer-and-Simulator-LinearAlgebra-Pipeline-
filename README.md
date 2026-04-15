@@ -10,8 +10,6 @@ The app converts chemical reactions into a system of linear equations, solves th
 
 ## 🚀 Features
 
-### Tier 1 Extensions (Core Features)
-
 | Feature | What it does | Why it matters |
 |---|---|---|
 | **Recursive formula parser** | Handles `Ca(OH)₂`, `Al₂(SO₄)₃`, `Fe₂(SO₄)₃` — any nested parentheses | Correctly expands complex compound formulas |
