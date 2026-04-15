@@ -170,7 +170,7 @@ for key, default in [("run", False), ("chosen_sol", 0), ("last_eq", "")]:
 # ════════════════════════════════════════════════════════
 
 st.markdown(
-    "Now supports **parentheses** · **minimal coefficients** · **multiple solutions** · **precise error reporting**"
+    "Supports **parentheses** · **minimal coefficients** · **multiple solutions** · **precise error reporting**"
 )
 
 col_input, col_btn = st.columns([5, 1])
